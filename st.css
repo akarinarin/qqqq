@@ -1,0 +1,119 @@
+@media (max-width: 1000px){
+    header {
+        background-position: center;
+        height: 50vh;
+    }
+    header div{
+        height:50vh ;
+    }
+    header h1{
+        font-size: 10vw;
+    }
+    #fil{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+        font-size: 2em;
+    }
+    #right{
+        width: 100%;
+        font-size: 1em;
+    }
+    #Alaska button {
+        padding: 10px 20px;
+        background-color: bisque;
+    }
+#ch{
+    flex-direction: column;
+    gap: 50px;
+}
+#ch h2{
+    font-size: 7vw;
+}
+#ch div{
+    width: 100%;
+}
+#ch p{
+    font-size: 3vw;
+    line-height: 1.5;
+
+}
+#ch button{
+    padding: 15px 30px;
+    font-size: 3vw;
+
+}
+#ch img{
+    width: 70%;
+    display: flex;
+}
+#ch img:hover{
+    transform: scale(1.2);
+}
+#ch img{
+    cursor: pointer;
+    transition: all 1s;
+}    #Egypt{
+    flex-direction: column;
+    padding: 0;  }
+#Egypt #info{
+width: 100%;
+height: fit-content;
+}
+#Egypt img{
+    width: 100%;
+}
+#ven1{
+    flex-direction: column;
+    padding: 0; 
+}
+#ven1 #info{
+width: 100%;
+height: fit-content;
+}
+#ven1 img{
+    width: 100%;
+}
+#gal button:hover{
+    transform: scale(1.2);
+}
+#gal button{
+    cursor: pointer;
+    transition: all 1s;
+}
+#gall{
+    flex-direction: column;
+}
+#lefttt{
+    width: 100%;
+    font-size: 2em;
+}
+#righttt{
+    width: 100%;
+    font-size: 1em;
+}
+#lefttt h2:hover{
+    transform: scale(1.2);
+}
+#lefttt h2{
+    cursor: pointer;
+    transition: all 1s;
+}
+nav{
+    flex-direction: column;
+}
+nav a{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size:  6wv;
+    background-color: rgba(225, 239, 251, 0.814);
+    color: black;
+}
+nav a:hover{
+    background-color: rgba(161, 183, 221, 0.83);
+    color: aliceblue;
+}
+
+} 
